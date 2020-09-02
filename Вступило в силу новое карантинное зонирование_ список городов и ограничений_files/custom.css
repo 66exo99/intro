@@ -1,0 +1,85 @@
+/* .max-width-1540 {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+.max-width-1540 .container {
+    width: auto;
+}
+.max-width-1540 .sppb-row-container {
+    width: 100%;
+}
+.sp-module.logo-2 {
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.sppb-row-container {
+    max-width: 100%;
+}
+*/
+/* Стили для каталога */
+
+.results-style-6 .item-thumbnail-wrap {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#gallery{
+    max-width: 100%;
+    min-width: 150px;
+    height: 550px;
+}
+.company-container-style-6 .business-logo {
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.company-details-container .nav-tabs {
+    border-bottom: 1px solid #0094E0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #232323;/*kolio*/
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid #0094E0;
+    border-bottom-color: #0094E0;
+    font-size: 1.2em;
+    font-weight: 600;/*kolio*/
+}
+.company-details-container .nav-tabs>li>a {
+    font-size: 1.2em;
+}
+.company-container-style-6 .header-6 #top-right-container {
+    display: inline;
+    color: #2b2b2b;
+    float: right;
+    line-height: 30px;
+}
+.company-container-style-6 .header-6 #open_socials {
+    background: none;
+    border: none;
+    color: #2b2b2b;
+    padding: 5px 0;
+}
+.company-container-style-6 .breadcrumb {
+    margin-bottom: 0px;
+}
+.empty-block {
+    height: 400px;
+}
+.company-container-style-6 .company-header {
+    box-shadow: none;
+}
+.company-style-box {
+    color: #1d1d1d !important;
+}
+
+/* Smartphones (вертикальная) ----------- */
+@media only screen and (max-width: 375px) {
+     .empty-block {
+         height: 122px;
+     }
+     .company-container-style-6 .company-header {
+         height: 122px;    
+      }
+}
